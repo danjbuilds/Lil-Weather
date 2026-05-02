@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(236, 236, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+input{
+  border: 1px solid #a8a5a5; /* Replace default bevel with a flat line */
+  border-radius: 4px;     /* Optional: rounds the corners */
+  outline: none;          /* Removes the highlight ring on click */
+  padding: 8px;           /* Adds space inside the box */
+  appearance: none;       /* Resets platform-specific styling */
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    color: hsl(0, 11%, 93%);
+    padding: 10px;
+    background-color: hsl(116, 57%, 41%);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+button:hover{
+     background-color: hsl(116, 57%, 37%);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(360deg, rgba(231, 164, 110, 0.67), rgba(74, 118, 229, 0.752));
+
+}
+/* .errorDisplay{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(25, 24, 24);
+} */
