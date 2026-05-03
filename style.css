@@ -7,6 +7,9 @@ body{
     
 
 }
+.weatherForm{
+    justify-items: center;
+}
 
 input{
   border: 1px solid #a8a5a5; /* Replace default bevel with a flat line */
@@ -28,6 +31,7 @@ button{
     font-weight: bold;
     font-size: 20px;
     margin-left: 5px;
+    cursor: pointer;
 }
 button:hover{
      background-color: hsl(116, 57%, 37%);
@@ -36,6 +40,7 @@ button:hover{
 .card{
     display: flex;
     flex-direction: column;
+    width: 300px;
     
     padding: 20px;
     align-items: center;
@@ -48,3 +53,28 @@ button:hover{
     font-weight: bold;
     color: rgb(25, 24, 24);
 } */
+
+.descDisplay{
+    text-transform: capitalize;
+}
+.cityDisplay{
+    font-size: 60;
+    margin-bottom: 10px;
+}
+
+.tempDisplay{
+    margin-bottom: 0px;
+   
+}
+
+.humidityDisplay{
+    margin-bottom: 0px;
+   
+}
+
+.weatherEmoji{
+    filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
+    font-size: 50px;
+    margin: 0px;
+
+}
